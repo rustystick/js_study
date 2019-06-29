@@ -3,7 +3,7 @@ document.querySelector('#button2').addEventListener('click',loadCustomers);
 const outputField = document.querySelector('#customer')
 const outputField2 = document.querySelector('#customers')
 
-function loadCustomer(e){
+function loadCustomer(){
   const xhr = new XMLHttpRequest();
 
   // OPEN
@@ -25,7 +25,7 @@ function loadCustomer(e){
   xhr.send();
 
 }
-function loadCustomers(e){
+function loadCustomers(){
   const xhr = new XMLHttpRequest();
 
   // OPEN
